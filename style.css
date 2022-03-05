@@ -1,0 +1,160 @@
+  
+  /*
+#c5edd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+:root{
+     --cor0: #c5edd6;
+     --cor1: #83e1ad;
+     --cor2: #3ddc84;
+     --cor3: #2fa866;
+     --cor4: #1a5c37;
+     --cor5: #063d1e;
+
+}
+  @font-face {
+    font-family:"droid" ;
+    src: url("fontes/idroid.otf") format("opentype");
+}
+body{background-color:var(--cor0);
+     }
+
+header{
+      color: beige;background-image: linear-gradient(to bottom,#2fa866,#1a5c37);;
+      padding-top: 15px;
+      box-shadow: 3px 3px 2px 2px;
+      }
+      
+      strong{
+        color: #15924b;
+        font-weight: bolder;
+      }
+      
+
+h1{ font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 1px 3px;
+  
+   }
+    
+ nav{
+    background-color: #04662e;
+    font-size: 15px;   }
+
+nav>a{
+   color: white;
+   text-decoration: none;
+    margin: 10px;}  
+    
+    nav > a:hover{
+      background-color: #3ddc84;
+      color:#063d1e ;
+      border-radius: 5px;
+    }
+
+main{
+    background-color: beige;
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0px;
+    
+}
+main a{
+  background-color: #b3f3cf;
+  color: #063d1e;
+  font-weight: bolder;
+}
+main a:hover{
+  background-color: #10d666;
+
+}
+
+img{
+  width: 95%;
+  margin: 15px;
+  display: block;
+}
+
+.tudo{
+  text-align: center;
+}
+
+.pq{
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
+  .tp{
+      font-family: "droid";
+      font-size: 15px;
+      background-color: #71eea9;
+      text-align: left;
+      padding: 5px;
+  }
+
+  #robo{   
+    
+           margin: auto;
+          display: block;
+          
+         }
+
+.video { 
+
+  padding: 10px;
+  margin: 20px 10px 10px 10px;
+  border-radius: 5px;
+      }
+
+.video>iframe{
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+h2{
+    font-family: "droid";
+    text-align: center;
+    color:#219955;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    
+}
+div{background-color: #a9f0c9;
+  padding: 10px;
+  margin: 20px 10px 10px 10px;
+  border-radius:10px;
+  box-shadow: 1px 2px 4px 0px;
+;
+
+  
+}
+p{
+    
+    text-align: center;
+    text-indent: 15px;
+    text-align: justify;
+    margin: 15px;
+}
+
+h3{
+  background-color: #219955;
+  color: white;
+  padding:10px;
+  margin: 10px 10px 10px 10px;
+
+}
+ul{
+  line-height: 2em;
+  columns: 2;
+}
+
+footer{background-color: #71eea9;}
+
